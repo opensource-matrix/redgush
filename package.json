@@ -1,6 +1,6 @@
 {
   "name": "redgush",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "The RedGush framework.",
   "main": "index.js",
   "scripts": {
@@ -30,7 +30,7 @@
     "url": "https://github.com/opensource-matrix/redgush/issues"
   },
   "homepage": "https://github.com/opensource-matrix/redgush#readme",
-  "_id": "gusher@1.0.2",
+  "_id": "gusher@1.0.3",
   "dependencies": {
     "colors": "^1.3.3"
   }
