@@ -1,0 +1,34 @@
+{
+  "name": "redgush",
+  "version": "1.0.1",
+  "description": "The RedGush framework.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/opensource-matrix/redgush.git"
+  },
+  "keywords": [
+    "node",
+    "js",
+    "javascript",
+    "java",
+    "script",
+    "red",
+    "gush",
+    "tool",
+    "toolkit",
+    "util",
+    "desktop",
+    "ui"
+  ],
+  "author": "Matrix",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/opensource-matrix/redgush/issues"
+  },
+  "homepage": "https://github.com/opensource-matrix/redgush#readme",
+  "_id": "gusher@1.0.1"
+}
