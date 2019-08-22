@@ -3,17 +3,14 @@ var script = require('./lib/script.js');
 var port = require('./lib/port.js');
 var join = require('./lib/join.js');
 
-/* Simple static web page. */
-var myDiv = new element('div');
-myDiv.style.id = 'scripty';
-myDiv.text = 'Hello, world!';
+/* Jeremy's Website */
+var header = new element('h1');
+header.text = 'Jeremy is (sometimes) awesome!';
 
-var myScript = new script();
-myScript.setFunction(function name() {
-    console.log('Hello, world!')
-});
+var para = new element('p');
+para.text = `Hello, world!  I am not Jeremy that is writing this, but hello anyway!`;
 
-var myBody = join('body', myDiv, myScript);
+var body = join('body', header, para);
 
 var port = new port();
 port.src(myBody)
